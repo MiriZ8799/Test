@@ -1,0 +1,22 @@
+:host{
+    display: block;
+    padding: 50px;
+
+
+.display{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.aquarium-display{
+    border: solid #2a2e3f 4px;
+    border-radius: 5px;
+    width: 50%;
+    height: 400px;
+    margin: 5% 2%;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+}
+}

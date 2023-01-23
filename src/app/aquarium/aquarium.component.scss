@@ -1,0 +1,91 @@
+.fish {
+    width: 150px;
+    height: 100px;
+    animation: up 3s infinite; 
+  }
+  
+  /* Franklin */
+  .fish-body {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 40px;
+    background-color: orange;
+    border-radius: 50%;
+    width: 150px; 
+    height: 100px;
+  }
+  
+  .eye {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 20px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .pupil {
+    position: absolute;
+    z-index: 2;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: black;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+  }
+  
+  .fin {
+    margin-top: -100px; 
+    background-color: orange;
+    border-radius: 50%;
+    transform: rotate(40deg);
+    width: 80px;
+    height: 50px;
+  }
+  
+  .fin-bottom {
+    margin-top: -10px;
+    transform: rotate(-40deg);
+  }
+  #canvasFrame{
+    // transform: translate(-50px,20px); 
+    animation-name: example;
+    animation-iteration-count: infinite;
+  }
+
+#wrapper
+{
+ background-color:Yellow;
+ text-align:center;
+}
+#mydiv1 {
+border-radius: 7px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation-name: movingexample;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;    
+}
+.red{
+  background-color: red;
+  }
+  .blue{
+      background-color: blue;
+      }
+      .green{
+          background-color: green;
+          }
+@keyframes movingexample {
+    0%   { left:82px; top:124px;}
+    25%  { left:635px; top:124px;}
+    50%  { left:635px; top:426px;}
+    75%  { left:82px; top:426px;}
+    100% { left:82px; top:124px;}
+}
